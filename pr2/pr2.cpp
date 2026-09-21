@@ -11,14 +11,14 @@ using namespace std;
 
 int main()
 {
-    double alpha; // вхідний параметр
+    double k;     // вхідний параметр
     double m1;    // результат обчислення 1-го виразу
     double m2;    // результат обчислення 2-го виразу
 
-    cout << "alpha = "; cin >> alpha;
+    cout << "k = "; cin >> k;
 
-    m1 = (sin(alpha) + sin(5 * alpha) - sin(3 * alpha)) / (cos(alpha) - cos(3 * alpha) + cos(5 * alpha));
-    m2 = tan(3 * alpha);
+    m1 = (sin(k) + sin(5 * k) - sin(3 * k)) / (cos(k) - cos(3 * k) + cos(5 * k));
+    m2 = tan(3 * k);
 
     cout << endl;
     cout << "m1 = " << m1 << endl;
