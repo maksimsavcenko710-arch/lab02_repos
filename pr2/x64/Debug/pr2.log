@@ -1,3 +1,2 @@
 ﻿  pr2.cpp
-C:\Users\pravi\source\repos\pr2\pr2\pr2.cpp(10,3): error C2065: 'z2': undeclared identifier
-C:\Users\pravi\source\repos\pr2\pr2\pr2.cpp(13,22): error C2065: 'z2': undeclared identifier
+  pr2.vcxproj -> C:\Users\pravi\source\repos\pr2\x64\Debug\pr2.exe
