@@ -12,17 +12,17 @@ using namespace std;
 int main()
 {
     double alpha; // вхідний параметр
-    double a1;    // результат обчислення 1-го виразу
-    double a2;    // результат обчислення 2-го виразу
+    double o1;    // результат обчислення 1-го виразу
+    double o2;    // результат обчислення 2-го виразу
 
     cout << "alpha = "; cin >> alpha;
 
-    a1 = (sin(alpha) + sin(5 * alpha) - sin(3 * alpha)) / (cos(alpha) - cos(3 * alpha) + cos(5 * alpha));
-    a2 = tan(3 * alpha);
+    o1 = (sin(alpha) + sin(5 * alpha) - sin(3 * alpha)) / (cos(alpha) - cos(3 * alpha) + cos(5 * alpha));
+    o2 = tan(3 * alpha);
 
     cout << endl;
-    cout << "a1 = " << a1 << endl;
-    cout << "a2 = " << a2 << endl;
+    cout << "o1 = " << o1 << endl;
+    cout << "o2 = " << o2 << endl;
 
     cin.get();
     return 0;
