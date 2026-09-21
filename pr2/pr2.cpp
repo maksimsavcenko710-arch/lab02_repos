@@ -15,7 +15,7 @@ int main()
     double p1;    // результат обчислення 1-го виразу
     double p2;    // результат обчислення 2-го виразу
 
-    cout << "alpha = "; cin >> alpha; // це є зміна коміт ітд =)
+    cout << "alpha = "; cin >> alpha;
 
     p1 = (sin(alpha) + sin(5 * alpha) - sin(3 * alpha)) / (cos(alpha) - cos(3 * alpha) + cos(5 * alpha));
     p2 = tan(3 * alpha);
